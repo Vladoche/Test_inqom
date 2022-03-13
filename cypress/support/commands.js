@@ -24,6 +24,10 @@
 // -- This is will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 
+import 'cypress-file-upload';
+
+//THIS COMMAND BELOW IS USELESS
+
 Cypress.Commands.add('attachFiles', {
   prevSubject: 'element'
 }, (dom_element, files_data) => {

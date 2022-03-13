@@ -16,7 +16,7 @@ describe(`Changement de la photo de profil dans les paramètres`, () => {
     cy.get('#axeptio_btn_acceptAll').click()
 
     cy.get('.dfcLOV').attachFile('img/inqom.png', { subjectType: 'drag-n-drop' })
-    cy.get('.sc-hkgtus')
+    cy.get('[data-testid="account-edit-button-submit"]')
     cy.get('.sc-hlGDCY').should('not.contain', 'Ajouter un fichier').then(() => {
         cy.get('[data-testid="account-edit-button-submit"]').click()
       })
