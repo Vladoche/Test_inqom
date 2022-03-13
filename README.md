@@ -2,7 +2,7 @@
 
 ## description
 
-google search testing
+Update profile picture
 
 ## mandatory
 
