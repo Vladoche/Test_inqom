@@ -13,7 +13,7 @@ google search testing
 from bash console, clone the repository
 
 ```bash
-git clone https://github.com/mandriao84/itw.git
+git clone https://github.com/Vladoche/Test_inqom.git
 ```
 
 from bash console, install the dependencies
